@@ -1647,15 +1647,29 @@ h1 {
 /* Media Queries para tamaños de pantalla diferentes */
 @media screen and (max-width: 600px) {
   /* Estilos para pantallas pequeñas */
-  h1 {
-      font-size: 1.5em;
+  .titulo,
+  .titulo2 {
+    margin-bottom: 60px; /* Ajusta el espacio inferior */
+    font-size: 1.2em; /* Ajusta el tamaño de la fuente */
+    letter-spacing: 3px; /* Ajusta el espaciado entre letras */
+  }
+
+  .titulo2 {
+    margin-bottom: 140px; /* Ajusta el espacio inferior para .titulo2 en móviles muy pequeños */
   }
 }
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
   /* Estilos para pantallas medianas */
-  h1 {
-      font-size: 1.8em;
+  .titulo,
+  .titulo2 {
+    margin-bottom: 100px; /* Ajusta el espacio inferior */
+    font-size: 1.5em; /* Ajusta el tamaño de la fuente */
+    letter-spacing: 5px; /* Ajusta el espaciado entre letras */
+  }
+
+  .titulo2 {
+    margin-bottom: 140px; /* Ajusta el espacio inferior para .titulo2 en móvil */
   }
 }
 
